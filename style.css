@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.space {
+    padding: 100px 0;
+}
+.bg-img{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    width:97%;
+    height:700px;
+    border-radius: 25px;   
+    
+}
+.services{
+    position: relative;
+}
+
+.float{
+    position: relative;
+    height: 500px;
+}
+
+.demo1:hover,
+.demo2:hover,
+.demo3:hover {
+    background-color: #dea1ff !important;
+    cursor: pointer;
+}
+
+.demo1{
+    position: absolute;
+    top:60%;
+    left:10%;
+    height: 200px;
+    padding: 20px;
+    
+}
+.demo2{
+    position: absolute;
+    top: 40%;   
+    left:40%;
+    height: 200px;
+    padding: 20px;
+    
+}
+.demo3{
+    position: absolute;
+    top:20%;
+    left: 70%;
+    height: 200px;
+    padding: 20px;
+}
+.float{
+    position: relative;
+    height: 500px;
+}
+
+.bg-img-2 {
+    background-image: url(images/image2.jpg);
+    background-size: cover;
+    width:90%;
+    height:600px;   
+
+}
+.bg-img-3 {
+    background-image: url(images/circle.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+.profile-img{
+    width:70px;
+    height: 70px;
+    border:1px solid blue;
+    border-radius: 50%;
+    margin: 10px;;
+}
+.btext {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.banner-text {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    width: 50%;
+    margin: 0px auto;
+}
+.service-text {
+    text-align: left;
+    padding: 100px;
+}
+.service-text-2 {
+    text-align: left;
+}
+.service-text-2 h2,
+.service-text h2 {
+    color: #16157d;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.cbtn {
+    background-color: #659ee5;
+    border: 0;
+    font-size: 16px;
+}
+hr.ds {
+    position: relative;
+    bottom: 30px;
+    border: 1px solid #66a1e3 !important;
+    opacity: 1;
+    width: 440px;
+    text-align: center;
+    margin: 0 auto;
+}
+.txt-clr{
+    color: #16157d;
+}
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rounded-30px {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 450px;
+}
+.card {
+    border-radius: 30px
+}
